@@ -21,9 +21,8 @@ class SmsAPI():
         self.params["cc"] = self._get_cc()
 
         self.params["dr"] = "1"
-        self.params["m"] = msg
+        self.params["m"] = filter(lambda x: x in string.printable, msg)
         self.body = None
-        print(type(_from))
         if isinstance(_from, str) or isinstance(_from, unicode):
             self.params["sid"] = 1
             self.params["sname"] = str(_from)
