@@ -9,6 +9,7 @@ This is python binding for http://smsapi.si
 ```
 
 $ git clone https://github.com/strozl/smsapi.git
+$ cd smsapi
 $ virtualenv env
 $ source  env/bin/activate
 ```
