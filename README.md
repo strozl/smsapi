@@ -11,10 +11,22 @@ This is python binding for http://smsapi.si
 $ git clone https://github.com/strozl/smsapi.git
 $ virtualenv env
 $ source  env/bin/activate
-# install requirements
+```
+
+## install requirements
+
+```
+
 $ pip install -r requirements.txt
-# edit example.py varibales section
-# try sending
+
+```
+
+## edit example.py varibales section
+
+try sending
+
+```
+
 $ python example.py
 
 ```
